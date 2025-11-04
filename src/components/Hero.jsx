@@ -36,7 +36,7 @@ export default function Hero() {
           Music Addctd
         </h1>
         <p className="mt-4 text-neutral-300 text-base sm:text-lg md:text-xl max-w-2xl">
-          A dark, modern and cinematic personal music showcase.
+          Music is addictive, like you.
         </p>
       </motion.div>
     </section>

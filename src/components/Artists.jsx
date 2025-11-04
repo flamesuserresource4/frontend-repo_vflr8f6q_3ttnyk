@@ -5,7 +5,7 @@ import ArtistModal from './ArtistModal';
 const artistsSeed = [
   {
     name: 'The Weeknd',
-    image: 'https://i.imgur.com/IBQRLoQ.jpeg',
+    image: 'https://images.unsplash.com/photo-1663994768434-3efcc72f4290?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxUaGUlMjBXZWVrbmR8ZW58MHwwfHx8MTc2MjIyNTQ2MHww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80',
     modal: {
       realName: 'Abel Makkonen Tesfaye',
       birth: 'February 16, 1990 – Toronto, Canada',
@@ -13,6 +13,78 @@ const artistsSeed = [
       description:
         'The Weeknd crafts nocturnal, cinematic pop that blends R&B, synthwave, and electronic moods. His work explores intimacy, fame, and the surreal edges of modern life, delivered with sleek, immersive production and a distinctive falsetto.',
       latestAlbum: 'Dawn FM (2022)',
+    },
+  },
+  {
+    name: 'Playboi Carti',
+    image: 'https://i.imgur.com/IBQRLoQ.jpeg',
+    modal: {
+      realName: 'Jordan Terrell Carter',
+      birth: 'September 13, 1996, Atlanta, Georgia, USA',
+      genre: 'Trap, Experimental Hip-Hop',
+      description:
+        'Playboi Carti is known for his energetic performances, avant-garde beats, and signature “baby voice.” He influenced both the sound and fashion of modern rap.',
+      latestAlbum: 'Music (2025) — his third studio album, darker and experimental; debuted at No.1 on the Billboard 200.',
+    },
+  },
+  {
+    name: 'Post Malone',
+    image: 'https://i.imgur.com/XdPPaTG.jpeg',
+    modal: {
+      realName: 'Austin Richard Post',
+      birth: 'July 4, 1995, Syracuse, New York, USA',
+      genre: 'Pop, Hip-Hop, Rock',
+      description:
+        'Post Malone blends genres with melodic hooks and emotional lyrics. From “White Iverson” to hits like “Rockstar,” “Circles,” and “Sunflower,” he became one of the biggest names in modern pop-rap.',
+      latestAlbum: 'Latest highlights include Austin (2023); frequent hit singles across years.',
+    },
+  },
+  {
+    name: 'Future',
+    image: 'https://i.imgur.com/dWnmR1L.jpeg',
+    modal: {
+      realName: 'Nayvadius DeMun Cash',
+      birth: 'November 20, 1983, Atlanta, Georgia, USA',
+      genre: 'Trap, Hip-Hop',
+      description:
+        'Future pioneered modern trap with moody, reflective lyrics and heavy Auto-Tune. Notable anthems include “Mask Off,” “Life Is Good,” and “March Madness.”',
+      latestAlbum: 'We Don’t Trust You (2024) with Metro Boomin; prolific collaborative projects.',
+    },
+  },
+  {
+    name: 'Travis Scott',
+    image: 'https://i.imgur.com/SiAexaL.jpeg',
+    modal: {
+      realName: 'Jacques Bermon Webster II',
+      birth: 'April 30, 1991, Houston, Texas, USA',
+      genre: 'Hip-Hop, Psychedelic Trap',
+      description:
+        'Travis Scott is known for high-energy performances and immersive, cinematic production. Albums like Astroworld and Utopia showcase his genre-bending sound.',
+      latestAlbum: 'Utopia (2023)',
+    },
+  },
+  {
+    name: 'SZA',
+    image: 'https://i.imgur.com/BxOq25I.jpeg',
+    modal: {
+      realName: 'Solána Imani Rowe',
+      birth: 'November 8, 1989, St. Louis, Missouri, USA',
+      genre: 'R&B, Alternative R&B, Pop',
+      description:
+        'SZA is celebrated for introspective lyrics and genre-blending textures. Ctrl (2017) and SOS (2022) garnered critical acclaim and cemented her as a leading voice in modern R&B.',
+      latestAlbum: 'SOS (2022)',
+    },
+  },
+  {
+    name: 'Metro Boomin',
+    image: 'https://i.imgur.com/3XiLdPP.jpeg',
+    modal: {
+      realName: 'Leland Tyler Wayne',
+      birth: 'September 16, 1993, St. Louis, Missouri, USA',
+      genre: 'Hip-Hop, Trap (Producer)',
+      description:
+        'One of the most influential producers in modern rap, shaping the 2010s–2020s trap sound. Known for dark, cinematic production and major hits with Future, The Weeknd, and 21 Savage.',
+      latestAlbum: 'We Still Don’t Trust You (2024) with Future; Heroes & Villains (2022).',
     },
   },
 ];

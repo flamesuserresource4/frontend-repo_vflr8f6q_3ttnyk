@@ -1,18 +1,30 @@
 export default function Footer() {
   return (
     <footer className="w-full bg-black text-white py-10" style={{ fontFamily: 'Poppins, sans-serif' }}>
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6">
         <p className="text-white/60 text-sm">© {new Date().getFullYear()} Music Addctd</p>
-        <a
-          href="https://open.spotify.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="inline-flex items-center gap-3 hover:opacity-90"
-          aria-label="Spotify profile"
-        >
-          <SpotifyIcon className="w-6 h-6" />
-          <span className="text-white/80 text-sm">Spotify</span>
-        </a>
+        <div className="flex items-center gap-4">
+          <a
+            href="https://open.spotify.com/playlist/6cjIp7QTUiqTxLTAtzFOAt?si=361aafbc851a4719"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-center gap-2 hover:opacity-90 px-3 py-2 rounded-full bg-neutral-900 border border-white/10"
+            aria-label="Open Spotify playlist 1"
+          >
+            <SpotifyIcon className="w-5 h-5" />
+            <span className="text-white/80 text-sm">Playlist 1</span>
+          </a>
+          <a
+            href="https://open.spotify.com/playlist/5yAHm3bkWvAG2TcN9sqgLl?si=8590303f5fbc4fa2"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-center gap-2 hover:opacity-90 px-3 py-2 rounded-full bg-neutral-900 border border-white/10"
+            aria-label="Open Spotify playlist 2"
+          >
+            <SpotifyIcon className="w-5 h-5" />
+            <span className="text-white/80 text-sm">Playlist 2</span>
+          </a>
+        </div>
       </div>
     </footer>
   );

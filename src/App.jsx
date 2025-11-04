@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import Hero from './components/Hero';
 import Artists from './components/Artists';
+import Playlists from './components/Playlists';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
     >
       <Hero />
       <Artists />
+      <Playlists />
       <Footer />
     </motion.main>
   );
