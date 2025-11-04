@@ -1,19 +1,20 @@
+import { motion } from 'framer-motion';
 import Hero from './components/Hero';
 import Artists from './components/Artists';
-import Playlists from './components/Playlists';
 import Footer from './components/Footer';
 
-function App() {
+export default function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.6, ease: 'easeOut' }}
+      className="min-h-screen bg-black"
+      style={{ fontFamily: 'Poppins, sans-serif' }}
+    >
       <Hero />
-      <main>
-        <Artists />
-        <Playlists />
-      </main>
+      <Artists />
       <Footer />
-    </div>
+    </motion.main>
   );
 }
-
-export default App;
